@@ -1,0 +1,73 @@
+\documentclass{article}
+% Change "article" to "report" to get rid of page number on title page
+\input{homework_page_format}
+\usepackage{tikz}
+%\usepackage{tikz-timing}
+\usepackage{verbatim}
+\usepackage{enumerate}
+
+% Homework Specific Information
+\newcommand{\hmwkTitle}{Homework\ 1}
+\newcommand{\hmwkDueDate}{5 October 2010}
+\newcommand{\class}{EE 450}
+\newcommand{\classSession}{Session 2}
+\newcommand{\hmwkAuthorName}{JOE Smith}
+
+\input{homework_commands}
+
+\begin{document}
+\begin{spacing}{1.1}
+\maketitle
+%\newpage
+% Uncomment the \tableofcontents and \newpage lines to get a Contents page
+% Uncomment the \setcounter line as well if you do NOT want subsections
+%       listed in Contents
+%\setcounter{tocdepth}{1}
+%\tableofcontents
+%\newpage
+
+% When problems are long, it may be desirable to put a \newpage or a
+% \clearpage before each homeworkProblem environment
+
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{homeworkProblem}
+Some work here
+
+\problemAnswer{And we have a winner}
+\end{homeworkProblem}
+
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{homeworkProblem}
+How about a multi-part problem?
+
+\begin{homeworkSection}{a)}
+Start a problem
+\sectionAnswer{And answer}
+\end{homeworkSection}
+
+\begin{homeworkSection}{b)}
+Or potentially:
+\boxed{Answer\ without\ the\ section\ reference}
+
+But be warned - that puts it into math mode - maybe someone can make that a little nicer
+\end{homeworkSection}
+
+\begin{homeworkSection}{c)}
+How about a section which...
+\clearpage
+Goes on multiple pages - check out the footer...
+
+\sectionAnswer{Cool}
+\end{homeworkSection}
+\end{homeworkProblem}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{homeworkProblem}
+There's a lot more that \LaTeX will let you do of course, so have fun and contribute!  There's plenty of comments in the code to check out.
+\end{homeworkProblem}
+\end{spacing}
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
