@@ -1,8 +1,10 @@
 A template for doing homework assignments in LaTeX.
 
-The basis of this work is pulled from several places, and I wish I could
-remember where to give reference.  Changes have been made by several people for
-various reasons.  If you have something to add which can improve the
-usefulness or readability PLEASE SUBMIT PATCHES!
+The primary basis of this template is Ted Pavlic's example which can be found
+here: http://www.tedpavlic.com/post_homework_tex_example.php
+
+Changes have been made by several people for various reasons.  If you have 
+something to add which can improve the usefulness or readability PLEASE 
+SUBMIT PATCHES!
 
 Thanks! 
